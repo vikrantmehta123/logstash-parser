@@ -20,7 +20,7 @@ A Python-based Logstash pipeline configuration parser powered by [`pyparsing`](h
 ```bash
 pip install pyparsing
 # Clone this repo
-git clone https://github.com/yourusername/logstash-pipeline-parser.git
+git clone https://github.com/vikrantmehta123/logstash-parser.git
 cd logstash-pipeline-parser
 ```
 
@@ -64,6 +64,6 @@ node.to_logstash()  # Recursively convert node and children to Logstash config s
 
 ---
 
-## Credits:
+### Credits:
 
-To build this parser, I have taken references from [this](https://pypi.org/project/logstash-pipeline-parser/) module. Specifically, the grammar definition has been referenced from this package.
+Grammar structure informed by [this](https://pypi.org/project/logstash-pipeline-parser/) module. 
